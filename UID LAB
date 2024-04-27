@@ -1,9 +1,1 @@
- online translator enhanced by dictionary definitions, pronunciations, synonyms, examples and supporting the 19 languages most used on the web.
-public class AddTwoNumbers {
-    public static void main(String[] args) {
-        int num1 = 5;
-        int num2 = 7;
-        int sum = num1 + num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-    }
-}
+
