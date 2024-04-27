@@ -1,1 +1,83 @@
+<!DOCTYPE html> su
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Output</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
 
+<table>
+  <tr>
+    <th>MS Office</th>
+    <td>MS Word</td>
+  </tr>
+  <tr>
+    <th rowspan="2">MS Excel</th>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <th rowspan="4">MS Powerpoint</th>
+    <td>MS Access</td>
+  </tr>
+  <tr>
+    <td>LibreOffice</td>
+  </tr>
+  <tr>
+    <td>LibreOffice Writer</td>
+    <td>LibreOffice Calc</td>
+    <td>LibreOffice Impress</td>
+    <td>LibreOffice Slide</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Slide Transition</th>
+    <td rowspan="2">Animation</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <th rowspan="2">Compact Language</th>
+  </tr>
+  <tr>
+    <td>Low Level Language</td>
+    <td>High Level Language</td>
+    <td>COBOL</td>
+  </tr>
+  <tr>
+    <td>FORTRAN</td>
+    <td>JAVA</td>
+  </tr>
+  <tr>
+    <th rowspan="3">Desktop Publishing</th>
+    <td>Photoshop</td>
+  </tr>
+  <tr>
+    <td>CorelDraw</td>
+  </tr>
+  <tr>
+    <td>Page Make</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Digital Marketing</th>
+    <td>SEO</td>
+  </tr>
+  <tr>
+    <td>SMO</td>
+  </tr>
+</table>
+
+</body>
+</html>
+su
