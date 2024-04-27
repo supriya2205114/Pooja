@@ -1,1 +1,54 @@
-
+su
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Feedback Form</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <label>Please check all the emotions that apply to you:</label><br>
+        <input type="checkbox" id="angry" name="emotion" value="Angry">
+        <label for="angry">Angry</label><br>
+        
+        <input type="checkbox" id="sad" name="emotion" value="Sad">
+        <label for="sad">Sad</label><br>
+        
+        <input type="checkbox" id="happy" name="emotion" value="Happy">
+        <label for="happy">Happy</label><br>
+        
+        <input type="checkbox" id="ambivalent" name="emotion" value="Ambivalent">
+        <label for="ambivalent">Ambivalent</label><br><br>
+        
+        <label for="satisfaction">How satisfied were you with our service?</label><br>
+        <select id="satisfaction" name="satisfaction">
+            <option value="Very satisfied">Very satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Didn't care">Didn't care</option>
+            <option value="Dissatisfied">Dissatisfied</option>
+            <option value="Very dissatisfied">Very dissatisfied</option>
+        </select><br><br>
+        
+        <label for="comment">Further comments:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+        
+        <label for="bioPhoto">Bio photo:</label>
+        <input type="file" id="bioPhoto" name="bioPhoto"><br><br>
+        
+        <label for="location">Location visited:</label>
+        <input type="text" id="location" name="location"><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
