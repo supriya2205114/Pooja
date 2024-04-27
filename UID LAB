@@ -1,17 +1,1 @@
-su
-<table border="1">
-  <tr>
-    <th>Question No.</th>
-    <th>Question</th>
-    <th>Answer</th>
-    <th>Marks per Answer</th>
-    <th>Total Marks</th>
-  </tr>
-  <tr>
-    <td>A</td>
-    <td>Name three features in a ROM B</td>
-    <td>15</td>
-    <td>D</td>
-    <td>Here is a single answer</td>
-  </tr>
-</table>
+
