@@ -84,3 +84,58 @@ su
 
 </body>
 </html>
+ha
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nested Unordered List</title>
+<style>
+    ul {
+        list-style-type: none;
+    }
+    ul ul {
+        margin-left: 20px;
+    }
+</style>
+</head>
+<body>
+
+<ul>
+    <li>Programming Languages
+        <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Java</li>
+        </ul>
+    </li>
+    <li>Python</li>
+    <li>DSA
+        <ul>
+            <li>Array</li>
+            <li>Linked List</li>
+            <li>Stack</li>
+            <li>Queue</li>
+            <li>Trees</li>
+        </ul>
+    </li>
+    <li>Graphs</li>
+    <li>Web Technologies
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVAScript
+                <ul>
+                    <li>React</li>
+                    <li>Angular</li>
+                    <li>Vue</li>
+                </ul>
+            </li>
+            <li>Bootstrap</li>
+        </ul>
+    </li>
+</ul>
+
+</body>
+</html>
